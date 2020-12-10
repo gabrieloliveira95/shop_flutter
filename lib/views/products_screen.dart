@@ -7,7 +7,6 @@ import '../widgets/product_item.dart';
 import '../utils/app_routes.dart';
 
 class ProductsScreen extends StatelessWidget {
-
   Future<void> _refreshProducts(BuildContext context) {
     return Provider.of<Products>(context, listen: false).loadProducts();
   }
@@ -18,7 +17,7 @@ class ProductsScreen extends StatelessWidget {
     final products = productsData.items;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Gerenciar Produtos'),
+        title: Text('Products Mananger'),
         actions: <Widget>[
           IconButton(
             icon: const Icon(Icons.add),

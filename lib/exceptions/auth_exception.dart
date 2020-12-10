@@ -16,6 +16,6 @@ class AuthException implements Exception {
     if (errors.containsKey(key)) {
       return errors[key];
     }
-    return "Errors Occured";
+    return key.toString();
   }
 }

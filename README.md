@@ -38,3 +38,11 @@
 ### Main
 
 - /Main.dart -> Init Application and Define theme; 
+
+### Firebase
+
+class Constants {
+  static const BASE_API_URL =
+      '';
+  static const BASE_API_KEY = '';
+}
